@@ -1,0 +1,19 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+/* Make the input and buttons look nice */
+input, button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Styling for the display area */
+#movieDisplay {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
