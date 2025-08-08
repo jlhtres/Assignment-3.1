@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie List App</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="movietitlesassignmentcss.css">
+</head>
+<body>
+
+  <!-- Main heading -->
+  <h2>Movie List Tracker</h2>
+
+  <!-- Textbox for user to type in a movie -->
+  <label for="movieInput">Enter a movie title:</label><br>
+  <input type="text" id="movieInput" placeholder="e.g. Inception"><br>
+
+  <!-- Buttons to control the app -->
+  <button onclick="addMovie()">Add Movie</button>
+  <button onclick="displayMovies()">Display List</button>
+  <button onclick="resetList()">Reset</button>
+
+  <!-- Area where we will show the movie list -->
+  <div id="movieDisplay"></div>
+
+  <!-- Link to external JavaScript -->
+  <script src="movieassjs.js"></script>
+</body>
+</html>
